@@ -42,7 +42,7 @@ package-lock.json
 IMPORT
 -> we can access the the another javaScript file in a javaScript file using import.
 -> prefer file first.js and second.js;
--> This type of systems are called common js modules
+-> This type of systems are called Common js modules...later we will study about ECMAScript Modules (ESM).
 
 Module Wrapper Function
 ->The Module Wrapper Function is a feature of Node.js that provides 
@@ -60,3 +60,10 @@ Modules of NodeJs
 
 3. file system module: refer pathSystemModule.js
 -> documentaion link : https://nodejs.org/api/fs.html
+
+
+ECMAScript Modules (ESM)
+
+refer moduleFirst.js and moduleSecond.js files
+->File extensions: .mjs (recommended)
+->To run this we have to add the "type" : "module" in package.json
