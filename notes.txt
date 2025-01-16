@@ -1,0 +1,30 @@
+-> Definition: Node.js is a JavaScript runtime environment that executes JavaScript code outside a browser or the Server.
+-> There are some minor differences between the javascript that is executing on the browser and the javaScript executing outside the browser
+-> There is Document Object and LOcal storage APIs
+
+->NodeJs works on Asynchronous Non-Blocking I/O Model
+  When we run NodeJs on server than its one particular thread able to handle multiple connection simultaneously.
+
+->Single Thread can manage Multiple connection
+
+
+->npm (node package manager) 
+A tool to manage packages and libraries.
+Command examples:
+npm init: Initialize a project.
+npm install <package>: Install a package.
+
+->The node_modules folder is an essential part of any Node.js project. It stores all the dependencies (packages) installed via npm (Node Package Manager).
+1. Initialize the Project:
+Create a project folder and initialize it with a package.json file: npm init -y
+This command creates a package.json file with default values.
+Install Dependencies:
+
+2. Install the required packages using npm install. For example: npm install express
+This will:
+Add the node_modules folder to your project directory.
+Update package.json to include the installed package as a dependency.
+
+->
+
+
