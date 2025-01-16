@@ -4,7 +4,8 @@
 
 ->NodeJs works on Asynchronous Non-Blocking I/O Model
   When we run NodeJs on server than its one particular thread able to handle multiple connection simultaneously.
-
+  if task 1 is not ready yet it will execute the task 2 which is below the task 1 , it does not block.
+   
 ->Single Thread can manage Multiple connection
 
 
@@ -25,6 +26,37 @@ This will:
 Add the node_modules folder to your project directory.
 Update package.json to include the installed package as a dependency.
 
-->
+->npm i -g nodemon : this will install the nodemon package globally on the system, i can use nodemon on any project
+  To use nodemon : nodemon index.js
+  USE: The moment we will do changes in JavaScript file it will execute it
 
+DEV Dependencies
+-> There are many dependencies that we want to use only at the time of development
+   for example if i want to use nodemon only at the time of development than i can save it as dev dependency in package.json
+   by running the command : npm install --save-dev nodemon
 
+package-lock.json
+-> In this we have our dependency tree as it is.
+-> It locks the exact versions of the dependencies and their sub-dependencies, ensuring consistent installations across different environments.
+
+IMPORT
+-> we can access the the another javaScript file in a javaScript file using import.
+-> prefer file first.js and second.js;
+-> This type of systems are called common js modules
+
+Module Wrapper Function
+->The Module Wrapper Function is a feature of Node.js that provides 
+  a mechanism for encapsulating the code of every module. When a module is loaded, Node.js wraps the module code inside a special function before execution.
+  refer second.js;
+
+Modules of NodeJs
+-> NodeJs has many built in modules that we can access directly in our code
+
+ 1. os module : refer osModule.js
+ ->documentaion link : https://nodejs.org/api/os.html
+
+2. path module: refer pathModule.js
+-> documentaion link : https://nodejs.org/api/path.html
+
+3. file system module: refer pathSystemModule.js
+-> documentaion link : https://nodejs.org/api/fs.html
