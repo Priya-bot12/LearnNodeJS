@@ -1,3 +1,6 @@
+LEARN NODEJS 
+https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
+
 -> Definition: Node.js is a JavaScript runtime environment that executes JavaScript code outside a browser or the Server.
 -> There are some minor differences between the javascript that is executing on the browser and the javaScript executing outside the browser
 -> There is Document Object and LOcal storage APIs
@@ -67,3 +70,16 @@ ECMAScript Modules (ESM)
 refer moduleFirst.js and moduleSecond.js files
 ->File extensions: .mjs (recommended)
 ->To run this we have to add the "type" : "module" in package.json
+
+4. URL module : refer urlModule.js
+-> documentaion link : https://nodejs.org/api/url.html
+
+how website is actually created with the help of the nodejs 
+refer website.js and index.html
+
+Whatever we have write in our website.js file is not actually readalbe for 
+another developer thats why we use express framework
+to install express use :npm install express --save
+
+-> if we go to the inspect->network->headers 
+   we can see a lot of things are automatically set including content type
